@@ -1,0 +1,121 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgb(230, 74, 100), pink);
+}
+
+/*main section content styling*/
+main {
+    margin-top: 5em;
+    border-radius: 8px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+main > * {
+    box-sizing: border-box;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.main > * {
+    width: 100%;
+}
+form {
+    margin-right: 3em;
+}
+.signup {
+    padding: 3em;
+    background-color: #fff;
+    margin-right: 0;
+    padding-right: 0;
+    border-radius: 8px;
+}
+
+.signup h1 {
+    margin-bottom: 1em;
+}
+label {
+    font-weight: 600;
+}
+label:last-of-type {
+    font-size: 16px;
+    margin: 1.8em 0 0 0;
+}
+input {
+    padding: 1.1em 3em 1.1em 0.6em;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+}
+.checkbox {
+    display: inline-flex;
+    gap: 0.8em;
+    margin: 0;
+}
+button {
+    padding: 1em 4em;
+    margin-top: 2.5em;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(28, 8, 73);
+}
+button:hover {
+    color: rgb(28, 8, 73);
+    background-color: #fff;
+    transition: background-color 1.2s;
+    cursor: pointer;
+}
+input, button {
+    border-radius: 5px;
+}
+#email {
+    margin-bottom: 2em;
+}
+#t-and-c {
+    margin: 2em 0 0 0;
+    display: inline;
+}
+a {
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(28, 8, 78);
+    transition: color 0.72s ease-in;
+}
+/*/*/
+.iphone-mockup {
+    position: relative;
+}
+.iphone-mockup img {
+    text-align: center;
+    align-items: center;
+}
+.gradie {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+}
+.gradie h2 {
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.gradie p {
+    color: #ddd;
+}
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+}
